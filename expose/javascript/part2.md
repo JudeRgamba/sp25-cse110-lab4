@@ -9,3 +9,6 @@
 9. Line 11 causes an error because the i variable was declared with let and is confined to only being accessible inside the for loop. 
 10. Line 12 prints 3, which is the length of the input list. This variable was declared with const and can be accessed because the console.log(length) is in the same code block.
 11. It return [50, 100, 150] which is the new prices of after the 50 percent discount has been applied to every price inside the input list of [100, 200, 300].
+12. Object notation
+    1. student.name
+    2.  
