@@ -1,0 +1,4 @@
+1. At line 12, it prints 3 which is the last value that var i takes. It can be accessed outside the for loop because the variable was declared using var.
+2. At line 13, it prints 150 which is the last value that discountedPrice takes. It can be accessed outside the for loop because the variable was declared using var.
+3. At line 14, it prints 150 which is the last value that finalPrice takes. It can be accessed outside the for loop because the variable was declared using var. 
+4. This function returns a list of the new prices after the 50 percent discount has been applied. The input was [100, 200, 300] and the function returned [50, 100, 150].
