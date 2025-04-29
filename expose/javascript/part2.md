@@ -11,4 +11,27 @@
 11. It return [50, 100, 150] which is the new prices of after the 50 percent discount has been applied to every price inside the input list of [100, 200, 300].
 12. Object notation
     1. student.name
-    2.  
+    2. student["Grad Year"]
+    3. student.greeting()
+    4. student["Favorite Teacher"].name
+    5. student.courseLoad[0]
+ 13. Arithmetic
+     1.  '3' + 2 = '32'
+     2.  '3' - 2 = 1
+     3.  3 + null = 3
+     4.  true + 3 = 4
+     5.  false + null = 0
+     6.  '3' + undefined = '3undefined'
+     7.  '3' - undefined = NaN
+ 14. Comparison
+     1.  '2' > 1 = true
+     2.  '2' < '12' = false
+     3.  2 == '2' = true
+     4.  2 === '2' = false
+     5.  true == 2 = false
+     6.  true === Boolean(2) = true
+ 15. The difference between == and === is that === is a strict equality operator. === compares the values without converting the types, so if the values are not of the same type, it instantly returns false.
+ 16. Code in another file
+ 17. If the modifyArray() function is called with the parameters modifyArray([1,2,3], doSomething), it will return the list [1, 4, 6]. This result comes from line 4 where the callback() function of doSomething is called with the parameter of the ith element in the input array. Each array element is doubled and then added to the final list that is returned. 
+ 18. Code in another file.
+ 19. The code outputs 1, 4, 3, and then 2.
