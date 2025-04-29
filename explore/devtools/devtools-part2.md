@@ -1,0 +1,2 @@
+1. The bug is that the input for num1 and num2 are being treated as strings and are being concatenated instead of added as integers. 
+2. I would fix this bug by converting num1 and num2 into an integer using javascript's native Number() function. 
